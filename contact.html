@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Contact Us - ATOM</title>
+    <link rel="icon" type="image/png" href="src/T.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="src/logo/T.png" alt="ATOM Logo" width="30" height="30" class="d-inline-block align-text-top rounded-circle">
+                <span class="ms-2 text-danger fw-bold">ATOM</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-danger fw-bold" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger fw-bold" href="aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger fw-bold" href="service.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-danger fw-bold active" aria-current="page" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-danger text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Contact Us</h1>
+            <p class="lead fw-bold">Get in touch with ATOM Business Solutions</p>
+        </div>
+    </header>
+
+    <section class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col text-center text-danger">
+                <h5>Contact Information</h5>
+                <p>Email: info@atom.com | Phone: +62 812-3456-7890</p>
+                <p>Address: Jl. Contoh No. 123, Palangka Raya, Indonesia</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-danger text-white text-center py-3">
+        <div class="container">
+            &copy; 2025 ATOM Business Solutions. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
