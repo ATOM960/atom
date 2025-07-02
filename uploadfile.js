@@ -11,7 +11,7 @@ const dataLayanan = {
             "Pengiriman tepat waktu dan aman",
             "Layanan pelacakan real-time",
             "Dukungan pelanggan responsif",
-            "Jangkauan pengiriman luas"
+            "Jangkauan pengiriman luas",
         ],
         info: "Kami siap membantu Anda mengirimkan barang dengan cepat dan aman ke berbagai tujuan. Percayakan kebutuhan pengiriman Anda pada ATOM untuk solusi terbaik!"
     },
